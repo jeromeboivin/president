@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<title>President</title>
+		<meta charset="UTF-8">
+		<link rel="stylesheet" href="president.css"/>
+		<script src="jquery-1.7.min.js"></script>
+	</head>
+	<body>
+		<h1>The President</h1>
+		<p id="playerName"></p>
+		<img class="preload" src="img/cards.png"/>
+
+		<div id="card-table">
+			<button id="deal">Deal</button>
+			<button id="play">Play</button>
+			<button id="skip">Skip</button>
+		</div>
+		<!-- load this at the bottom so the #card-table element exists -->
+		<script src="cards.js"></script>
+		<script src="president.js"></script>
+	</body>
+</html>
